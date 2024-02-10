@@ -363,7 +363,7 @@
         font-size: 16px;
         color: rgb(190, 190, 190);
         text-decoration: underline;
-        text-decoration-color: rgb(73, 73, 255);
+        text-decoration-color: rgb(168, 168, 252);
         text-decoration-style: double;
         display: inline-block;
     }
@@ -371,7 +371,7 @@
     .h2c:hover {
         transition: .5s ease;
         color: white;
-        text-decoration-color: blue;
+        text-decoration-color: rgb(0, 0, 197);
         cursor: pointer;
     }
 
