@@ -1,0 +1,395 @@
+    * {
+        padding: 0;
+        margin: 0;
+        /* border: 1px solid red; */
+    }
+
+    h1,
+    h2 {
+        font-family: "Playfair Display", serif;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .bgimg {
+        background-image: url(https://plus.unsplash.com/premium_photo-1675183556353-05a6944ef506?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
+
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar h1 {
+        color: white;
+    }
+
+    ul {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+        color: white;
+        background-color: rgb(146, 146, 146);
+        padding-left: 10px;
+        padding-top: 10px;
+        border-radius: 100%;
+    }
+
+    .icon:hover {
+        color: white;
+        background: none;
+        border: 2px solid white;
+        transition: .5s all ease;
+
+
+    }
+
+    .cen {
+        display: flex;
+        justify-content: center;
+    }
+
+    @media(max-width:590px) {
+        ul {
+            display: none;
+        }
+
+    }
+
+    ul li {
+        list-style-type: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        transition: .5s all ease;
+
+    }
+
+    ul select {
+        background: none;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .head {
+        height: 550px;
+        color: rgb(230, 229, 229);
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .box h1 {
+        margin-top: 50px;
+        font-family: "Playfair Display", serif;
+        /* font-size: 6PX; */
+
+    }
+
+    .box p {
+        margin-top: 70px;
+    }
+
+    .box span {
+        margin-top: 70px;
+    }
+
+    span button {
+        height: 50px;
+        width: 130px;
+        color: white;
+        background-color: blue;
+        outline: none;
+        border: none;
+    }
+
+    .section2 {
+        height: 600px;
+        background-color: rgb(161, 151, 137);
+        color: rgb(230, 229, 229);
+        display: flex;
+    }
+
+    .sec2item {
+        margin-top: 50px;
+    }
+
+    .one {
+        height: 50px;
+        width: 130px;
+        color: white;
+        background-color: blue;
+        outline: none;
+        border: none;
+    }
+
+    .two:hover {
+        box-shadow: 5px 5px 10px black;
+        transition: .5s all ease;
+
+    }
+
+    .one:hover {
+        box-shadow: 5px 5px 10px black;
+        transition: .5s all ease;
+    }
+
+    .height {
+        height: 500px;
+    }
+
+    .height h1 {
+        margin-top: 70px;
+        font-family: "Playfair Display", serif;
+        font-size: 40px;
+        font-weight: bold;
+
+    }
+
+    .height p {
+        margin-top: 70px;
+    }
+
+    .height button {
+        margin-top: 40px;
+    }
+
+    .two {
+        background: none;
+        border: 3px solid white;
+    }
+
+    .img {
+        display: flex;
+        position: relative;
+    }
+
+    .position {
+        width: 750px;
+        height: 200px;
+        background-color: rgb(165, 137, 104);
+        position: absolute;
+        right: 0;
+        top: 900px;
+    }
+
+    .pic {
+        width: 490px;
+        height: 490px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 10px;
+        left: 100px;
+        z-index: 1;
+    }
+
+    .section3 {
+        background-color: rgb(150, 133, 110);
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .headding {
+        margin-top: 50px;
+        font-size: 60px;
+        font-weight: bolder;
+        font-family: "Playfair Display", serif;
+        color: white;
+    }
+
+    .margin {
+        margin-top: 50px;
+    }
+
+    .raw {
+        box-sizing: border-box;
+        height: 160px;
+        margin: 5px;
+    }
+
+    .col {
+        box-sizing: border-box;
+        margin: 5px;
+        background-color: rgb(114, 100, 81);
+    }
+
+    .col:hover {
+        cursor: pointer;
+        background-color: brown;
+        transition: 1s all ease;
+
+    }
+
+    .inrow {
+        box-sizing: border-box;
+        height: 150px;
+        padding: 5px;
+        color: rgb(189, 176, 176);
+    }
+
+    .chota {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .articleb {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 22px;
+    }
+
+    .section4 {
+        height: 750px;
+        background: rgb(161, 151, 137);
+        display: flex;
+
+    }
+
+    .roow {
+        margin: 15px;
+    }
+
+    form {
+        margin-top: 40px;
+    }
+
+    input {
+        width: 100%;
+        height: 50px;
+        outline: none;
+        border: none;
+        font-size: 50px;
+        background-color: rgb(150, 133, 110);
+        padding-left: 10px;
+        color: white;
+        font-size: 20px;
+        caret-color: white;
+
+    }
+
+    input::placeholder {
+        color: white;
+        font-size: 20px;
+
+    }
+
+    input:focus {
+        background-color: rgb(180, 165, 143);
+        transition: .5s all ease;
+    }
+
+    textarea {
+        width: 100%;
+        height: 300px;
+        background-color: rgb(150, 133, 110);
+        color: white;
+        font-size: 20px;
+        padding-left: 10px;
+
+    }
+
+    textarea::placeholder {
+        color: white;
+        font-size: 20px;
+    }
+
+    textarea:focus {
+        background-color: rgb(180, 165, 143);
+        transition: .5s all ease;
+    }
+
+    .section4 button {
+        height: 60px;
+        width: 200px;
+        color: white;
+        background-color: blue;
+        outline: none;
+        border: none;
+    }
+
+    .section4 button:hover {
+        box-shadow: 5px 5px 10px black;
+        transition: .3s all ease;
+    }
+
+    .footer {
+        display: flex;
+        height: 430px;
+        background-color: rgb(150, 133, 110);
+    }
+
+    .main {
+        margin-top: 50px;
+    }
+
+    .bb {
+        padding: 20px;
+        border-bottom: 2px solid white;
+    }
+
+    .ched {
+        font-weight: bolder;
+        color: white;
+    }
+
+    .h2c {
+        font-size: 16px;
+        color: rgb(190, 190, 190);
+        text-decoration: underline;
+        text-decoration-color: rgb(73, 73, 255);
+        text-decoration-style: double;
+        display: inline-block;
+    }
+
+    .h2c:hover {
+        transition: .5s ease;
+        color: white;
+        text-decoration-color: blue;
+        cursor: pointer;
+    }
+
+    .h2c i {
+        font-size: 26px;
+        text-decoration: none;
+    }
+
+    .align {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .align p {
+        margin-top: 20px;
+        /* height: 70px; */
+        color: white;
+        font-size: 20px;
+    }
